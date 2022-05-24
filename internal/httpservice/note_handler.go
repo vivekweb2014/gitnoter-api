@@ -8,10 +8,10 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
+	"github.com/git-noter/gitnoter-api/internal/github"
+	"github.com/git-noter/gitnoter-api/internal/user"
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/sirupsen/logrus"
-	"github.com/vivekweb2013/gitnoter/internal/github"
-	"github.com/vivekweb2013/gitnoter/internal/user"
 	"golang.org/x/oauth2"
 )
 

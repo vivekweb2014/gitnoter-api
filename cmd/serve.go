@@ -1,10 +1,10 @@
 package cmd
 
 import (
+	"github.com/git-noter/gitnoter-api/internal/applicationconfig"
+	"github.com/git-noter/gitnoter-api/internal/db"
+	"github.com/git-noter/gitnoter-api/internal/httpservice"
 	"github.com/spf13/cobra"
-	"github.com/vivekweb2013/gitnoter/internal/applicationconfig"
-	"github.com/vivekweb2013/gitnoter/internal/db"
-	"github.com/vivekweb2013/gitnoter/internal/httpservice"
 )
 
 // serveCmd represents the serve command

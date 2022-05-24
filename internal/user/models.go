@@ -3,7 +3,7 @@ package user
 import (
 	"time"
 
-	"github.com/vivekweb2013/gitnoter/internal/preference"
+	"github.com/git-noter/gitnoter-api/internal/preference"
 	"gorm.io/gorm"
 )
 

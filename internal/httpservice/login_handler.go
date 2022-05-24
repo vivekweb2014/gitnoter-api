@@ -5,12 +5,12 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/git-noter/gitnoter-api/internal/auth"
+	"github.com/git-noter/gitnoter-api/internal/github"
+	"github.com/git-noter/gitnoter-api/internal/user"
 	gh "github.com/google/go-github/v43/github"
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"
-	"github.com/vivekweb2013/gitnoter/internal/auth"
-	"github.com/vivekweb2013/gitnoter/internal/github"
-	"github.com/vivekweb2013/gitnoter/internal/user"
 )
 
 // LoginHandler represents http handler for serving user login actions.

@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/vivekweb2013/gitnoter/internal/config"
+	"github.com/git-noter/gitnoter-api/internal/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

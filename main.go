@@ -1,6 +1,6 @@
 package main
 
-import "github.com/vivekweb2013/gitnoter/cmd"
+import "github.com/git-noter/gitnoter-api/cmd"
 
 func main() {
 	cmd.Execute()

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/vivekweb2013/gitnoter/internal/applicationconfig"
+	"github.com/git-noter/gitnoter-api/internal/applicationconfig"
 )
 
 // Run starts the http server.

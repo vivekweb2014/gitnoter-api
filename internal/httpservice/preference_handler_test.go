@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/git-noter/gitnoter-api/internal/github"
+	"github.com/git-noter/gitnoter-api/internal/preference"
+	"github.com/git-noter/gitnoter-api/internal/user"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/vivekweb2013/gitnoter/internal/github"
-	"github.com/vivekweb2013/gitnoter/internal/preference"
-	"github.com/vivekweb2013/gitnoter/internal/user"
 )
 
 func TestGetRepos(t *testing.T) {

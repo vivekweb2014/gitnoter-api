@@ -1,11 +1,11 @@
 package applicationconfig
 
 import (
-	"github.com/vivekweb2013/gitnoter/internal/auth"
-	"github.com/vivekweb2013/gitnoter/internal/config"
-	"github.com/vivekweb2013/gitnoter/internal/github"
-	"github.com/vivekweb2013/gitnoter/internal/preference"
-	"github.com/vivekweb2013/gitnoter/internal/user"
+	"github.com/git-noter/gitnoter-api/internal/auth"
+	"github.com/git-noter/gitnoter-api/internal/config"
+	"github.com/git-noter/gitnoter-api/internal/github"
+	"github.com/git-noter/gitnoter-api/internal/preference"
+	"github.com/git-noter/gitnoter-api/internal/user"
 	"golang.org/x/oauth2"
 	gh "golang.org/x/oauth2/github"
 	"gorm.io/gorm"

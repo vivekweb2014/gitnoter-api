@@ -13,11 +13,11 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
+	"github.com/git-noter/gitnoter-api/internal/github"
+	"github.com/git-noter/gitnoter-api/internal/preference"
+	"github.com/git-noter/gitnoter-api/internal/user"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/vivekweb2013/gitnoter/internal/github"
-	"github.com/vivekweb2013/gitnoter/internal/preference"
-	"github.com/vivekweb2013/gitnoter/internal/user"
 	"golang.org/x/oauth2"
 	"gorm.io/gorm"
 )
